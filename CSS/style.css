@@ -3,6 +3,11 @@
   src: url(../fonts/AvertaDemoPECuttedDemo.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../fonts/ProximaNovaBold.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,4 +17,312 @@
 html {
   font-family: "Averta";
   font-weight: 400;
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 27.1472px;
+  line-height: 33px;
+  color: #000000;
+  padding: 42px 120px 23px 120px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Proxima Nova";
+}
+
+.logo-text {
+  font-family: "Averta";
+}
+
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.hero-container {
+  display: flex;
+}
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 471px;
+  justify-content: center;
+  margin-right: 95px;
+  position: relative;
+}
+.hero-heading {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  margin-bottom: 40px;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #565656;
+  margin-bottom: 33px;
+}
+.hero-button {
+  width: 215px;
+  height: 65px;
+  background-color: #2639ed;
+  border-radius: 60px;
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: inherit;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-dots {
+  position: absolute;
+  bottom: 0;
+  left: -52px;
+  z-index: -1;
+}
+
+.hero-image-container {
+  position: relative;
+}
+
+.hero-image {
+  margin-right: -120px;
+  z-index: 5;
+}
+
+.hero-blue {
+  position: absolute;
+  left: -65px;
+  z-index: -2;
+}
+
+.hero-yellow {
+  position: absolute;
+  right: 0;
+  bottom: -89px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  z-index: -3;
+}
+
+.client-container {
+  margin-top: 136px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client-text-container {
+  width: 336px;
+}
+
+.client-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #757575;
+}
+.client-heading {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  font-family: "Proxima Nova";
+  color: #000000;
+}
+
+.product-container {
+  margin-top: 94px;
+  display: flex;
+  position: relative;
+}
+
+.product-text-container {
+  width: 396px;
+  margin-right: 91px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+.product-heading {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  font-family: "Proxima Nova";
+  color: #000000;
+  margin-bottom: 30px;
+}
+.product-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #565656;
+}
+
+.product-text-rectangle {
+  position: absolute;
+  z-index: -1;
+  top: 280px;
+  left: -38px;
+}
+
+.product-text-dots {
+  position: absolute;
+  bottom: 60px;
+}
+
+.product-card-container {
+  display: flex;
+  position: relative;
+}
+.product-card-container__inside-left {
+  margin-right: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 79px;
+}
+
+.product-card {
+  width: 308px;
+  height: 379px;
+  padding: 39px 32px 57px 31px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.product-card-heading {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  margin-bottom: 27px;
+}
+
+.product-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #757575;
+}
+
+.product-logo {
+  width: 121px;
+  height: 121px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 31px;
+}
+
+.logo-blue {
+  background-color: #f4f9ff;
+}
+
+.logo-pink {
+  background-color: #fff2f8;
+}
+
+.logo-orange {
+  background-color: #fff7e3;
+}
+
+.logo-green {
+  background-color: #deffee;
+}
+
+.product-card-container__inside-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.product-bg {
+  position: absolute;
+  z-index: -1;
+  top: 140px;
+  left: 270px;
+}
+
+.product-elipse {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  z-index: -2;
+}
+
+.about-container {
+  display: flex;
+  margin-top: 146px;
+}
+.left-container {
+  margin-right: 118px;
+  position: relative;
+}
+
+.about-elipse {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  z-index: -1;
+}
+
+.right-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-heading {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+  font-family: "Proxima Nova";
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #565656;
+}
+
+.about-rectangle {
+  position: absolute;
+  top: 100px;
+  left: -40px;
+  z-index: -1;
 }
