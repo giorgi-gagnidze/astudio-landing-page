@@ -55,6 +55,11 @@ html {
   color: #000000;
 }
 
+.header-link {
+  text-decoration: none;
+  color: #000000;
+}
+
 .hero-container {
   display: flex;
 }
@@ -325,4 +330,308 @@ html {
   top: 100px;
   left: -40px;
   z-index: -1;
+}
+
+.client-header {
+  text-align: center;
+  margin-top: 181px;
+}
+.client-heading {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+.client-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #757575;
+}
+
+.client-container {
+  display: flex;
+  align-items: center;
+}
+.client-img-container {
+  position: relative;
+  margin-left: -73px;
+  margin-right: 43px;
+}
+.client-photo {
+}
+
+.client-elipse {
+  position: absolute;
+  bottom: 90px;
+  left: 30px;
+  z-index: -1;
+}
+
+.client-dots {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.testimonial-contaainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: -80px;
+}
+
+.client-name {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 21px;
+  font-family: "Proxima Nova";
+}
+
+.testimonial-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #565656;
+  margin-right: 38px;
+  margin-bottom: 40px;
+}
+
+.dots {
+  display: flex;
+  gap: 26px;
+}
+
+.dots > img {
+  cursor: pointer;
+}
+
+.client-photo-container {
+  position: relative;
+}
+
+.client-photos {
+  margin-right: -51px;
+}
+
+.client-photos-elipse {
+  position: absolute;
+  left: 40px;
+  top: 130px;
+  z-index: -1;
+  scale: 1.4;
+}
+
+.subscribe-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 148px;
+  height: 292px;
+  align-items: center;
+  padding: 0 98px 0 92px;
+  background-color: #f4f9ff;
+  border-radius: 75px;
+  position: relative;
+}
+
+.cubsribe-rectangle-yellow {
+  position: absolute;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(270deg);
+  z-index: -3;
+  bottom: -40px;
+  left: -40px;
+}
+
+.cubsribe-rectangle-blue {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.subscribe-text-container {
+}
+
+.subscribe-heading {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  margin-bottom: 17px;
+}
+
+.subscribe-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #757575;
+}
+
+/* Button inside input field */
+
+.subscribe-form-container {
+  /* This bit sets up the horizontal layout */
+  display: flex;
+  flex-direction: row;
+
+  /* This bit draws the box around it */
+  /* border: 1px solid grey; */
+
+  /* I've used padding so you can see the edges of the elements. */
+  padding: 1px;
+
+  /* Align items center */
+  align-items: center;
+}
+
+.subscribe-form {
+  /* Tell the input to use all the available space */
+  flex-grow: 2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border: none;
+}
+
+/* remove the input focus blue box, it will be in the wrong place. */
+.subscribe-form:focus {
+  outline: none;
+}
+
+.subscribe-button {
+  width: 188px;
+  height: 60px;
+  background: #2639ed;
+  border-radius: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Averta";
+  color: #ffffff;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe-form-container {
+  width: 479px;
+  height: 80px;
+  background-color: #ffffff;
+  border: 1px solid #f1f1f1;
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 60px;
+  z-index: 5;
+}
+
+.subscribe-form {
+  padding-left: 34px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Averta";
+  outline: none;
+}
+
+.subscribe-form:placeholder-shown {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #959595;
+  font-family: "Averta";
+}
+
+.subscribe-dots {
+  position: absolute;
+  top: -56px;
+  right: -37px;
+  z-index: -2;
+}
+
+.footer {
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #f1f1f1;
+  /* transform: matrix(1, 0, -1, 0, 0, 0); */
+  margin-top: 146px;
+}
+
+.footer {
+  padding: 60px 0 29px 0;
+  display: flex;
+}
+
+.footer-text-container {
+  width: 270px;
+  margin-right: 171px;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+
+.footer-heading > span {
+  font-family: "Proxima Nova";
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #565656;
+  margin-bottom: 40px;
+}
+
+.social-container {
+  display: flex;
+  gap: 16px;
+}
+
+.social-container > img {
+  cursor: pointer;
+}
+
+.footer-menu {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  color: #000000;
+  list-style: none;
+  margin-top: 4px;
+}
+
+.first-li {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  margin-bottom: 24px;
+}
+
+.manu-01 {
+  margin-right: 121px;
+}
+.menu-02 {
+  margin-right: 123px;
+}
+.menu-03 {
+  margin-right: 106px;
+}
+.manu-04 {
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #a4a4a4;
+  margin-top: 17px;
+  text-align: center;
 }
